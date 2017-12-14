@@ -1,0 +1,111 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dannextech.apps.hivaidsguideandtester.Stages">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Stages of HIV Infection"
+                android:textColor="@color/colorAccent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Without treatment, HIV infection advances in stages, getting worse over time. HIV gradually destroys the immune system and eventually causes acquired immunodeficiency syndrome (AIDS)."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="There is no cure for HIV infection, but HIV medicines (called antiretrovirals or ARVs) can prevent HIV from advancing to AIDS. HIV medicines help people with HIV live longer, healthier lives. HIV medicines also reduce the risk of HIV transmission (the spread of HIV to others)."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/stages" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="There are three stages of HIV infection:"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Acute HIV Infection"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Acute HIV infection is the earliest stage of HIV infection, and it generally develops within 2 to 4 weeks after a person is infected with HIV. During this time, some people have flu-like symptoms, such as fever, headache, and rash. In the acute stage of infection, HIV multiplies rapidly and spreads throughout the body. The virus attacks and destroys the infection-fighting CD4 cells of the immune system. During the acute HIV infection stage, the level of HIV in the blood is very high, which greatly increases the risk of HIV transmission."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Chronic HIV Infection"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The second stage of HIV infection is chronic HIV infection (also called asymptomatic HIV infection or clinical latency). During this stage of the disease, HIV continues to multiply in the body but at very low levels. People with chronic HIV infection may not have any HIV-related symptoms, but they can still spread HIV to others. Without treatment with HIV medicines, chronic HIV infection usually advances to AIDS in 10 years or longer, though it may take less time for some people."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. AIDS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AIDS is the final, most severe stage of HIV infection. Because HIV has severely damaged the immune system, the body can’t fight off opportunistic infections. (Opportunistic infections are infections and infection-related cancers that occur more frequently or are more severe in people with weakened immune systems than in people with healthy immune systems.) People with HIV are diagnosed with AIDS if they have a CD4 count of less than 200 cells/mm3 or if they have certain opportunistic infections. Without treatment, people with AIDS typically survive about 3 years."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

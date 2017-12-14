@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dannextech.apps.hivaidsguideandtester.HivAids">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="What is HIV:"
+               android:textColor="@color/colorAccent"
+               android:textAppearance="@style/TextAppearance.AppCompat.Large"
+               android:textStyle="bold"
+               android:textSize="30dp"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="HIV stands for Human Immunodeficiency Virus. It is a virus that attacks the immune system, which is our body’s natural defence against illness. The virus destroys a type of white blood cell in the immune system called a T-helper cell, and makes copies of itself inside these cells. T-helper cells are also referred to as CD4 cells."
+               android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+               android:textStyle="bold"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="10dp"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="As HIV destroys more CD4 cells and makes more copies of itself, it gradually breaks down a person’s immune system. This means someone living with HIV, who is not receiving treatment, will find it harder and harder to fight off infections and diseases."
+               android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+               android:textStyle="bold"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="10dp"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="If HIV is left untreated, it may take up to 10 or 15 years for the immune system to be so severely damaged it can no longer defend itself at all. However, the speed HIV progresses will vary depending on age, health and background."
+               android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+               android:textStyle="bold"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="10dp"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="What is AIDS:"
+               android:textColor="@color/colorAccent"
+               android:textAppearance="@style/TextAppearance.AppCompat.Large"
+               android:textStyle="bold"
+               android:textSize="30dp"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="AIDS is not a virus but a set of symptoms (or syndrome) caused by the HIV virus. A person is said to have AIDS when their immune system is too weak to fight off infection, and they develop certain defining symptoms and illnesses. This is the last stage of HIV, when the infection is very advanced, and if left untreated will lead to death."
+               android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+               android:textStyle="bold"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="10dp"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="More on HIV &amp; AIDS"
+               android:textColor="@color/colorAccent"
+               android:textAppearance="@style/TextAppearance.AppCompat.Large"
+               android:textStyle="bold"
+               android:textAlignment="center"
+               android:textSize="30dp"
+               android:layout_marginTop="20dp"/>
+
+           <android.support.v7.widget.RecyclerView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:scrollbars="vertical"
+               android:id="@+id/hivList">
+
+           </android.support.v7.widget.RecyclerView>
+       </LinearLayout>
+   </ScrollView>
+
+
+</FrameLayout>

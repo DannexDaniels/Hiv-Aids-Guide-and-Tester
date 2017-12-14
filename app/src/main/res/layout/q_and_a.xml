@@ -1,0 +1,285 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dannextech.apps.hivaidsguideandtester.QandA">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frequently Asked Questions"
+                android:textColor="@color/colorAccent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Is it possible I got a false positive on my HIV test?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="When your initial test comes back positive (unless you’ve done the at-home test) you should be offered a confirmatory test, basically a second test to make sure you’re HIV-positive. The likelihood of two false positives is extremely rare. If you took the at-home test, it’s a good idea to go to a doctor or clinic to do the second test. Sadly, false-negative test results can happen too, so if you come up positive and your partner comes up negative, be cautious and have your partner retest. According to AIDS.gov, the likelihood of a false negative depends on when you might have been exposed to HIV and when you took the test: “It takes time for seroconversion to occur. This is when your body begins to produce the antibodies an HIV test is looking for—anywhere from two weeks to six months after infection. So if you have an HIV test with a negative result within three months of your last possible exposure to HIV, the CDC recommends that you be retested three months after that first screening test. A negative result is only accurate if you haven’t had any risks for HIV infection in the last six months—and a negative result is only good for past exposure.”"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. How did I get HIV?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is a question you’ll get asked exhaustively, but right now you’re probably just asking yourself. The bottom line is that the main risk is having unprotected anal sex or (for women) vaginal sex or sharing needles with an infected person. It’s possible but quite a bit less likely that you got it from oral sex. The CDC says it’s also possible to acquire HIV through exposure to infected blood, transfusions of infected blood, blood products, or organ transplantation, “though this risk is extremely remote due to rigorous testing of the U.S. blood supply and donated organs.”"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Can “tops” get HIV?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actually, there’s some truth to the assumption that male “tops” (insertive partners in anal sex) get HIV less. The insertive partner in both anal and vaginal sex is less likely to contract HIV—in the case of anal sex, tops have 86 percent reduction in transmission, according to a 2012 study—but that still means tops can get HIV from sex."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Does being HIV-positive mean I also have AIDS?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Absolutely not. In the U.S., the majority of people living with HIV will never develop AIDS, the most advanced stage of HIV disease. HIV is the virus that causes AIDS, but for most people, proper treatment and regular medical care to keep your immune system strong will prevent you from ever developing AIDS. Remember, an HIV-positive test result means only that: You have HIV."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Am I going to die?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No, probably not anytime soon. There can always be complications, just as there are with any chronic condition (like diabetes, for example), but generally, with current medications, people with HIV are living near-normal lifespans. You will be susceptible to the same medical conditions that affect all people as they age, and some experts say that people with HIV will experience some of these conditions associated with aging (like osteoporosis) sooner because of the lifesaving antiretroviral drugs you need to take."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. How do I answer when people ask, 'Can you get HIV from...'?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Let’s start with how it is not transmitted. Since the virus cannot survive outside the body, you cannot get it from toilet seats or shared cups or utensils. You can’t get it from kissing or from spit, since it’s not transmitted in your saliva. It is also not transmitted in sweat or urine. You can’t get it from a swimming pool, hot tub, sauna, mosquito or rodent bites, tattoos, or ear/body piercings. Only four bodily fluids are known to carry HIV in quantities concentrated enough to infect another person: blood, semen, vaginal fluids, and breast milk. According to the Centers for Disease Control and Prevention, it is one of these fluids from an HIV-positive person that has to come in contact with a mucous membrane or damaged tissue, or be directly injected into the bloodstream (from a needle or syringe) for HIV transmission to possibly occur."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Who is at higher risk of HIV infection?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Across all ethnicities, in the U.S. the group most affected by HIV infection is gay and bisexual men and other men who have anal sex with men (but for some reason don’t identify as gay or bi, dubbed MSM). Transgender women, especially women of color, are at a significantly higher risk as well, though exact numbers aren’t known because in many studies they are included, erroneously, in the MSM category. Black and Latino men and women and injection drug users have higher risk rates, but of course anyone (straight, gay, black, white, whatever) who has unprotected anal or vaginal sex is at risk."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Does this mean I have to stop having sex?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No, not unless you want to. But we encourage you not to stop. Orgasms can be wonder drugs in themselves: They help you sleep, boost your immunoglobulin levels (which fight infections), and reduce stress, loneliness, and depression. There are ways to protect yourself and your partner, however, including consistent condom use, PrEP, serosorting, and keeping your viral load undetectable.  One tip: If you use lube during vaginal or anal sex, avoid two ingredients: polyquaternium and polyquaternium-15, both types of polymers, which may increase the possibility of HIV transmission."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. What about oral sex?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It is far less common but possible to transmit HIV through oral sex, especially if you are a man and you ejaculate into someone else’s mouth. If you have HIV and your partner performs fellatio on you but you do not ejaculate in that person’s mouth, you have an extremely low chance of passing HIV to them. HIV transmission through “fellatio without ejaculation can happen, but it is exceedingly rare,” says Thomas Coates, Ph.D., a professor of medicine and director of the University of California, San Francisco, AIDS Research Institute and the Center for AIDS Prevention Studies. “It’s not ‘no risk,’ but it’s relatively low-risk.” When ejaculation occurs during fellatio, the risk of HIV transmission rises; researchers debate what the rate of transmission is but most estimates are between 1 and 10 percent, but you lower that to almost no risk if you pull out for the money shot. And if you are a woman, having someone perform cunnilingus on you is extremely low-risk as long as you are not menstruating."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10.  What is “Treatment as Prevention?”"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A couple of large-scale studies, on both gay and straight couples in which one was HIV-positive, showed that a person taking medication that reduces the amount of virus in their blood (that’s their “viral load”) to an undetectable level has only a 4 percent chance of passing HIV along to their partner, even if they do not use condoms. Any poz person will tell you one of the most frightening parts of being poz is the concern about infecting others; if you get yourself healthy enough and stay that way with an undetectable viral load, you actually make yourself safer to your partners than if you use only condoms."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11. What is PrEP?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Right now PrEP refers to Truvada, a combo pill that’s given in one particular configuration to people with HIV and in another configuration to people trying to prevent HIV. In the latter, it’s taken daily to prevent infection and has been approved for use in anyone at high risk (your partner would be considered high-risk now that you are poz). PrEP is extremely effective when taken correctly, but doctors still recommend you use condoms for added protection. (And make no mistake here: no, your partner cannot just take your Truvada if that’s what you’re prescribed; the different combination in your pill’s formulation won’t work and could do them great harm.)"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12. Can I still have kids?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes. If you’re a woman who is positive, medications can make it so you have less than a 1 percent chance of transmitting HIV to your unborn child. If you’re a man, your sperm will need to be “washed” of HIV and then inseminated into your partner, wife, or surrogate. The main difference for couples is that you’ll need a specialist who deals with HIV, fertility, and insemination. PrEP has also recently been prescribed by doctors off-label to prevent transmission during intercourse when couples are trying to conceive as well. If you want to adopt or foster parent, there are some new protections for HIV-positive parents-to-be that ensure you can’t be discriminated against."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13. I already have kids. How do I tell them?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Many parents worry that telling their kids might place a burden on the children. Mental health professionals say the decision about whether to tell your kids depends on many factors, including how perceptive they are (if there are medicine containers all around, kids will ask about them), how discreet you need to be (asking kids to keep your status a secret is a heavy burden), and how strong you can be for them (some kids will be angry or overly clingy, worried you’ll be dying). For most people, telling their children is the right thing to do. Before you do, learn everything you can about HIV. Your kids have been perfecting the “why” questions since they were 2 years old; this is a moment when there will be a lot of whys and hows. Your doctor or counselor might have ideas about groups or advocates for children, who can also talk to the kids or be a support team for you and the offspring as you go through the coming-out process. Then, says Mark Cichocki, a nurse educator at the University of Michigan’s HIV/AIDS Treatment Program and the author of Living With HIV: A Patient’s Guide, talk in a quiet space, be honest, trust your kids to handle it, and let them express their emotions fully (remember, kids can experience a range of feelings, including guilt, fear, rage, and rejection). This process may take more than one day—it’s the beginning of a conversation in which you should be honest, age-appropriate, and willing to offer both answers and assurances. Kids can impress us with their ability to understand and assimilate information; you just need to have it ready for them. After the crying and talking is done, take them out for ice cream so they remember that this is just another thing that your family will tackle together."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14. What is a serodiscordant couple?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serodiscordant simply means one of you has HIV and one of you doesn’t. Some gay couples use the term “magnetic couples” to mean the same thing. There’s very little research on how successfully serodiscordant, or mixed, couples cope with the complications of HIV. According to TheBody.com, an online HIV resource guide, “research of this nature tends to measure the most negative aspects of positive/negative couplings, telling us primarily how HIV complicates our lives. It tells us very little about the rewards, the discovery of inner strengths, the emotional ties, the opportunities for developing better communication skills, or the joy generated when a mixed-status couple does create a happy, strong, fulfilling relationship.”"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15. So how do we handle being a serodiscordant couple?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What you need to know if you’re a mixed couple is that you can have a happy and healthy relationship, but like all relationships, it requires work and commitment, because love does not conquer all. The HIV-negative partner may want to talk to his or her physician about PrEP; you should talk with yours about achieving an undetectable viral load. Both reduce the likelihood of you transmitting the virus to your partner. Couples might also want to see a counselor who specializes in coping with HIV. Many HIV-positive people fear spreading the disease to their partners, making sex fraught with tension. Many HIV-negative partners encounter disrespect from friends and family members when the other partner’s status is revealed. A counselor can help you work through those kinds of issues and communicate to each other your anxieties, fears, and needs."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

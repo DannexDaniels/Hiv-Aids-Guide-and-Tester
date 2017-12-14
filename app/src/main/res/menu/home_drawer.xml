@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/aids_ribbon"
+            android:title="HIV/AIDS" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/condom"
+            android:title="Preventive Measures" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/origin"
+            android:title="Managing Condition" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/family"
+            android:title="Couping With Affected Ones   " />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Q &amp; A" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Facts" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,369 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dannextech.apps.hivaidsguideandtester.Facts">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 New Things You Need to Know About HIV"
+                android:textColor="@color/colorAccent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. The latest on HIV"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="These days, the news about HIV/AIDS is mostly good. We're hearing about 'functional' cures, better drugs, fewer side effects and longer lives. There are still shadows here and there—not enough Americans know their HIV status and transmission rates are going up in certain groups. But knowing what's going on could save your life. Here's what you need to know about HIV/AIDS right now."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. There have been 'functional' cures"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In March of 2012, reports emerged of the first 'functional cure' for HIV, meaning the virus was nearly undetectable even after discontinuing medications. The so-called Mississippi Baby was treated for HIV within 30 hours of being born, which is unusually early. The drugs worked, but even after they were inadvertently stopped, the infant still shows no signs of virus except in ultra-sensitive tests. There have been sporadic other reports of functional cures as well—not many, but the fact that they're happening at all is significant."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. There could be a 'real' cure"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The handful of functional cures raises hopes that we'll someday see a true cure for HIV/AIDS. “There's some encouraging evidence that in the future we can be talking about a cure, but we're not there today,” says Michael Horberg, MD, director of HIV/AIDS at Kaiser Permanente and immediate past chair of the HIV Medicine Association. Meanwhile, Dr. Horberg adds, scientists are still trying to fully understand how functional cures work."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Early symptoms mimic the flu"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For many people, the first symptoms of HIV occur within a month of infection. Called acute retroviral syndrome (ARS) or primary HIV infection, it generally feels like a really bad flu—fever, swollen glands, sore throat, headache, muscle and joint pains, fatigue, and even a rash. In most cases these symptoms actually are the flu, but those who've recently had unprotected sex or engaged in other risky behavior should get an HIV test."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Early treatment makes a difference"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Mississippi Baby was treated incredibly early in life, and that gave the infant a huge advantage. Starting treatment early won't necessarily bring such dramatic results in everyone, but we do know that earlier is better in terms of living a long, healthy, productive life. “We start people much earlier than we ever did,” says Michael Kolber, MD, PhD, professor of medicine and director of the Comprehensive AIDS Program at the University of Miami Miller School of Medicine. That saves your immune system and it makes it much less likely that you'll transmit the virus to others."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Many people with HIV never develop AIDS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="With today's strong drugs, early HIV symptoms go away (if they even appear at all), and many HIV-positive people never experience symptoms again. “The medications we use are so potent and have made a difference in our ability to care for individuals,” says Kolber. Even without drugs, the average “chronic” or “latency” phase of HIV/AIDS when no symptoms are evident can last as long as 10 years."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Most new infections in women are from sex"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About 84% of new HIV infections in women are from heterosexual sex. In 2010, fewer women contracted HIV than in previous years, but there were still 9,500 new infections. That means safe sex is always in style."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. HIV infections in gay men are going up"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Men who have sex with men (MSM) bear the biggest HIV burden—and it's one group where rates are increasing, not decreasing. New HIV infections went up 12% between 2008 and 2010 in bisexual, gay, and other MSM. HIV also disproportionately affects African American men and Hispanics/Latinos."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. HIV testing is free for most people"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thanks to the Affordable Care Act, most health insurance plans now must provide free HIV screenings for anyone ages 15 to 65 with no copayment or coinsurance. HIV testing is quick and easy: an oral fluid sample or finger-prick test can deliver an answer in 10 to 20 minutes."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10. HIV testing rates are low"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Never been tested for HIV? You're not alone: 45% of Americans haven't. With stats like that, it's not surprising that almost 16% of those who have the virus don't even realize it."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11. HIV/AIDS can be treated with just one pill a day"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The days of taking multiple pills staggered throughout the day and night are over. HIV can be controlled with one pill a day. Each pill combines several medications that used to be taken separately. But, says Dr. Horberg, “you have to take them with almost a religious fervor.” That means never, ever skipping a day. The newer pills also tend to have fewer side effects, making the daily routine even easier to keep."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12. New HIV drugs are released frequently"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="More one-a-day pills will continue to enter the market, while drugs that can be taken even less frequently may be coming soon. And expect to see drugs that need to be taken even less often than every day. “These are new drugs that act at different points in the virus life cycle that have longer half lives and you wouldn't have to take them every day,” says Dr. Kolber."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13. HIV can be prevented"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="People at highest risk of contracting HIV—including those whose partners are HIV-positive, sex workers, and IV drug users—may cut their risk of getting the virus by 75% by taking Truvada, which is also used to treat people who already have HIV. Downsides: Truvada costs up to $14,000 a year, and comes with a risk of life-threatening side effects including liver problems and lactic acidosis, a dangerous build-up of acid in the blood."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14. But this doesn't lead to risky behavior"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Taking Truvada to prevent HIV doesn't lead to promiscuity and other high-risk behaviors. In a study of 2,500 men who have sex with men and transgender women, participants taking the drug or the placebo did not engage in more high-risk behavior, such as having sex without using a condom. But taking the drug did reduce the incidence of HIV."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15. Even after exposure, HIV infection can be prevented"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you're exposed to HIV, you may be able to prevent contracting the virus yourself by taking a cocktail of antiretroviral medications for 28 days. The treatment isn't 100% effective, but it can be close if it's started within 72 hours of exposure. You can get this treatment from your doctor, at the emergency room, and from HIV and urgent-care clinics."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16. Drug resistance is less of a threat"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Once upon a time, any given HIV/AIDS medication would work only for so long before the patient would no longer respond to the treatment and would need to switch to a different drug. The issue isn't as significant as it used to be thanks to the powerful new drugs on the market, says Dr. Kolber."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17. Hepatitis C is still common in HIV/AIDS patients"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About a quarter of all HIV-positive people also have hepatitis C (and up to 90% of HIV-positive IV drug users have it). The good news: the first pills to treat hep C were approved in 2013. The drugs—Olysio (simeprevir) and Solvadi (sofosbuvir)—cure up to 80% of cases."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18. Skin cancer is more common in people who have HIV"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A 2013 study published in the Journal of the National Cancer Institute revealed that non-melanoma skin cancers (basal cell carcinoma and squamous cell carcinoma) occur more than twice as often in HIV-positive people. The good news is that both cancers, if caught early, can be treated relatively easily."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="19. Alcohol abuse is a big HIV risk factor"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Alcohol and substance use lowers your inhibition and ability to think critically about what you do,” says Dr. Horberg, which may lead you to make risky decisions. For those who are already HIV-positive, alcohol abuse can increase susceptibility to certain HIV/AIDS-associated infections such as tuberculosis, and can make it more difficult to stick to a treatment regimen."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20. People still die from HIV/AIDS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HIV/AIDS took more than 15,000 lives in 2010 (the last year data are available). However, that's less than half the people who died in 1995, when mortality reached an all-time high."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
